@@ -1,0 +1,12 @@
+
+/*to layout components */
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+  .contact {
+    font-size: 25px;
+    margin: 20px;
+  }

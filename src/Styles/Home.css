@@ -1,0 +1,88 @@
+
+/*to layout components */
+.home {
+  display: grid;
+  grid-template-rows: 2fr 2fr 2fr; /* Allocates more space to the description */
+  grid-template-areas: 
+    "greetings"
+    "job"
+    "description" ; /*Naming areas */
+  gap: 0px; /* Adjust the gap between rows */
+  
+}
+
+.greetings {
+  grid-area: greetings ; 
+  font-size: 7vw;  
+  padding: 20px;
+  margin-top: 20px;
+  /*border: 4px solid #c5c2b6; /* Subtle border for visual separation */
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  text-align: center; /* Centers the text horizontally */
+  display: inline-block; /* Allows the box to fit to the content size */
+}
+
+.job {
+  grid-area: job ; 
+  font-size: 5vw; 
+  padding: 20px; 
+  text-align: center; /* Centers the text horizontally */
+  /*border: 4px solid #c5c2b6; /* Subtle border for visual separation */
+
+}
+
+.description {
+  grid-area :  description ; /* Assigns the .description element to the grid areat */
+  font-size: 20px; /* Sets the text size */
+  width: 100%; /* Adjusts the width to fill the grid area */
+  /*border : 4px solid #c5c2b6;  /* border */
+  padding: 20px; /* Adds padding inside the border on all sides to create space around the text */
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height calculation */
+  overflow-wrap: break-word; /* Allows long words to be broken and wrapped onto the next line to avoid text spilling out */
+  text-align: center; /* Aligns text horizontally to the center within the element */
+  display: inline-block; /* Allows the box to fit to the content size */
+    
+}
+
+
+
+/* Media query for tablets */
+@media (max-width: 1024px) {
+  .greetings {
+    font-size: 5vw; /* Slightly smaller font size */
+    width: 75%; /* Increase width for better fitting */
+  }
+  .job {
+    font-size: 5vw; /* Consistent font size with other elements */
+    width: 75%; /* Consistent width with other elements for better layout control */
+    padding: 10px; /* Ensures padding is consistent for layout symmetry */
+    text-align: center; /* Centers the text to maintain design consistency */
+  }
+  .description {
+    font-size: 5vw; /* Slightly smaller font size */
+    width: 75%; /* Increase width for better text display */
+  }
+ 
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .greetings {
+    font-size: 5vw; /* Significantly smaller font size for mobile */
+    width: 100%; /* Full width to utilize small screen space */
+  }
+  
+  .job {
+    font-size: 5vw; /* Smaller font size for readability on mobile */
+    width: 100%; /* Full width to utilize small screen space */
+    padding: 10px; /* Adjust padding to be consistent with other elements */
+    text-align: center; /* Ensures text is centered, enhancing readability */
+  }
+
+  .description {
+    font-size: 5vw; /* Smaller font size for readability on mobile */
+    width: 100%; /* Full width to utilize small screen space */
+  }
+
+}
