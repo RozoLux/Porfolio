@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Porfolio/static/css/main.52640139.css",
-    "main.js": "/Porfolio/static/js/main.7c29bf0d.js",
+    "main.js": "/Porfolio/static/js/main.082c1bc4.js",
     "static/js/453.acca0757.chunk.js": "/Porfolio/static/js/453.acca0757.chunk.js",
     "static/media/ExpensesTracker.png": "/Porfolio/static/media/ExpensesTracker.954a166bae6256ad30e3.png",
     "static/media/FitApp.png": "/Porfolio/static/media/FitApp.ae383459b34ea91c9a37.png",
@@ -9,11 +9,11 @@
     "static/media/Johann Levert Software Developer.docx": "/Porfolio/static/media/Johann Levert Software Developer.5e13ba4be2698f67eeb3.docx",
     "index.html": "/Porfolio/index.html",
     "main.52640139.css.map": "/Porfolio/static/css/main.52640139.css.map",
-    "main.7c29bf0d.js.map": "/Porfolio/static/js/main.7c29bf0d.js.map",
+    "main.082c1bc4.js.map": "/Porfolio/static/js/main.082c1bc4.js.map",
     "453.acca0757.chunk.js.map": "/Porfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.52640139.css",
-    "static/js/main.7c29bf0d.js"
+    "static/js/main.082c1bc4.js"
   ]
 }
